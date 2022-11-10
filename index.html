@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/index.css">
+
+    <script src="./js/index.js" defer></script>
     <title>Document</title>
 </head>
 <body>
@@ -16,10 +18,12 @@
 <div class="logo-container">
     <img src="./images/plasu_logo.png" alt="plasu logo">
 </div>
-<!-- <button>
-    <img src="./images/closemenu.png" alt="" class="harmburger-menu">
-</button> -->
-<ul class="primary-navigation d-flex">
+<button aria-controls="primary-navigation" aria-expanded="false" class="btn-img">
+    <img src="./images/menu.png" alt="" class="harmburger-menu" id="harmburger-menu">
+    <!-- <img src="./images/closemenu.jpg" alt=""> -->
+    <!-- <img src="./" alt=""> -->
+</button>
+<ul class="primary-navigation  d-flex" id="primary-navigation" data-visible="false">
     <li><a href="#">Home</a></li>
     <li><a href="#">Contact</a></li>
     <li><a href="#">About</a></li>
