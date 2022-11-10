@@ -61,7 +61,14 @@ font-size: 1.5rem;
 }
 /* styling the logo */
 .logo-container{
+    animation: rotate 3s infinite;
 width:70px;
+}
+@keyframes rotate {
+    100%{
+    transform:rotate(360deg);
+}
+    
 }
 /* 
 media query for mobile version */
@@ -108,6 +115,7 @@ padding-bottom: 0px;
         z-index: 999;
         /* border: none; */
         border-radius: 5px;
+        
     }
     .logo-container{
          width:60px;
@@ -125,4 +133,5 @@ padding-bottom: 0px;
     button:hover{
         /* display: none; */
     }
+   
 }
