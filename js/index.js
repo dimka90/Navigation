@@ -10,11 +10,11 @@ btnToggle.addEventListener("click",()=>{
     if (visible==="false"){
     
         navigation.setAttribute('data-visible',true);
-        image.setAttribute('src','/images/close-menu.png');
+        image.setAttribute('src','./images/download.jpeg');
     }
     else if(visible==="true"){
         navigation.setAttribute('data-visible',false);  
-        image.setAttribute('src','/images/menu.png');
+        image.setAttribute('src','./images/menu.png');
     }
 
 });
