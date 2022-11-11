@@ -10,7 +10,7 @@ body{
     /* background-repeat: no-repeat;
     background-size: cover;
     height: 100vh; */
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    font-family:
 }
 a{
     /* color: white; */
@@ -112,7 +112,7 @@ padding-bottom: 0px;
     }
     .btn-img{
         display: block;
-        width:60px;
+        width:40px;
         /* aspect-ratio:; */
         position: absolute;
         right: 2rem;
@@ -122,7 +122,7 @@ padding-bottom: 0px;
         background: transparent;
     }
     .logo-container{
-         width:60px;
+         width:40px;
     }
     .btn-img img{
         border-radius: 5px;   
