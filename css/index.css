@@ -26,6 +26,19 @@ a{
 .d-flex{
     display: flex;
 }
+.text-justify{
+    text-align: justify;
+}
+.topic{
+    padding-bottom: 1rem;
+}
+.content-text{
+    line-height: 1.5;
+    font-size: 1.5rem;
+}
+.center{
+    text-align: center;
+}
 /* reset :default styling */
 li{
     list-style: none;
@@ -39,7 +52,7 @@ a{
 }
 /* styling the navigation*/
 header{
-    box-shadow:rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;;
+    box-shadow:rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .navigation{
     /* outline: 2px solid blue; */
@@ -67,6 +80,43 @@ font-size: 1.5rem;
     animation: rotate 3s infinite ease-out;
 width:70px;
 }
+/* styling card */
+.card{
+    
+width:80%;
+max-width: 95%;
+margin:2rem auto;
+padding: 2rem 1rem;
+box-shadow:rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+.content{
+    color:white;
+    display: inline-block;
+    background-color: rgb(149, 149, 158);
+    margin-top: 1rem;
+    padding: 0.5rem ;
+    border-radius: 5px;
+}
+
+/* styling learn more */
+.learn-more{
+       
+
+}
+.learn-more button{
+    margin-top: 1rem;
+    border: none;
+    outline: none;
+    
+    padding: 1rem;
+    background-color: rgb(149, 149, 158);
+    border-radius: 5px;
+
+}
+.learn-more button a{
+    color:white;
+}
 
 /* 
 media query for mobile version */
@@ -83,7 +133,7 @@ media query for mobile version */
         width: 100%;
     }
     a{
-        color:white;
+        /* color:white; */
     }
    .primary-navigation{
       background-color: hsla(180, 4%, 5%, 0.9);
@@ -91,7 +141,7 @@ media query for mobile version */
       position: fixed;
       inset:0 0 0 20%;
       flex-direction: column;
-       /* backdrop-filter: blur(100); */
+       backdrop-filter: blur(7px);
        padding: 7rem  0px 0px 3rem; 
        /* outline: 2px solid green; */
        gap:3rem;
@@ -125,13 +175,13 @@ padding-bottom: 0px;
          width:40px;
     }
     .btn-img img{
-        border-radius: 5px;   
+        border-radius: 5px; 
+         
     }
     button{
         /* width:50px;
        height: 60px; */
-       border: none;
-       outline: 0px;
+     
        /* background-color: hsla(180, 4%, 5%, 0.9); */
     }
     button:hover{
